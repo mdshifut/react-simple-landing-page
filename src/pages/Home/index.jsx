@@ -5,7 +5,7 @@ import bitcoin from "./bitcoin.png";
 
 const Home = () => {
   return (
-    <>
+    <div className="home">
       <Header />
       <div className="banner">
         <div className="banner__text">
@@ -35,24 +35,22 @@ const Home = () => {
         </div>
       </div>
       <div className="quick-links">
-        <div className="quick-links__inner">
-          <a href="#link" className="quick-links__link">
-            <i className="fa fa-share-alt" />
-            <p>Share to</p>
-          </a>
-          <a href="#link" className="quick-links__link">
-            <i className="fa fa-audio-description" />
-            <p>recent news</p>
-          </a>
-          <a href="#link" className="quick-links__link">
-            <i className="fa fa-cog" />
-            <p>analytics</p>
-          </a>
-          <a href="#link" className="quick-links__link">
-            <i className="fa fa-btc" />
-            <p>wallet</p>
-          </a>
-        </div>
+        <a href="#link" className="quick-links__link">
+          <i className="fa fa-share-alt" />
+          <p>Share to</p>
+        </a>
+        <a href="#link" className="quick-links__link">
+          <i className="fa fa-audio-description" />
+          <p>recent news</p>
+        </a>
+        <a href="#link" className="quick-links__link">
+          <i className="fa fa-cog" />
+          <p>analytics</p>
+        </a>
+        <a href="#link" className="quick-links__link">
+          <i className="fa fa-btc" />
+          <p>wallet</p>
+        </a>
       </div>
       <div className="social-links">
         <a className="social-links__link" href="www.facebook.com">
@@ -68,7 +66,7 @@ const Home = () => {
           <i className="fa fa-instagram" />
         </a>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -10,15 +10,10 @@ a {
   color: #fff;
 }
 
+body {
+  background: #42455a;
+}
 a,
 a:hover {
   text-decoration: none;
-}
-
-.container {
-  width: 99vw;
-  height: 100vh;
-
-  background: #42455a;
-  overflow: hidden;
 }
